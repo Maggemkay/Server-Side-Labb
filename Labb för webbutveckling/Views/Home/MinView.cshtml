@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "MinView";
+}
+
+<form action="/Home/Answer" method="get">
+
+    <h4>Choose what to do:</h4>
+
+    <input type="radio" name="sign" value="0" /><label>+</label>
+    <input type="radio" name="sign" value="1" /><label>-</label>
+    <input type="radio" name="sign" value="2" /><label>*</label>
+    <input type="radio" name="sign" value="3" /><label>/</label>
+
+    <hr />
+
+    <h4>Choose your numbers:</h4>
+
+    <input type="number" name="numberOne" placeholder="Try 2" />
+
+    <br />
+
+    <input type="number" name="numberTwo" placeholder="Try 2 here also" />
+
+    <hr />
+
+    <h4>Press the button!</h4>
+
+    <input type="submit" value="Calculate" />
+
+</form>
+
